@@ -31,5 +31,5 @@
 */
 
 bool task01(int x, int y) {
-	return false;
+	return (x < 1 || y < 1 || x > 8 || y > 8) ? false : ((x + y) % 2 == 0 ? true : false);
 }
